@@ -4,8 +4,8 @@
 # Users then run:
 #   brew install --cask magici-labs/tap/edgepin
 cask "edgepin" do
-  version "0.1.1"
-  sha256 "31eaf7447cb52c5857c2239b174fce9600af7fe9aadfcf69a8a2aa18cc643b76"
+  version "0.1.2"
+  sha256 "4ffa570393039af1e75b5f03bf342a1ac5b788d8d523d6ac25e9b657274f288b"
 
   url "https://github.com/Magici-Labs/edgepin/releases/download/v#{version}/EdgePin-#{version}.zip"
   name "EdgePin"
