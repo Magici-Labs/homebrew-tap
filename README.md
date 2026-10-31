@@ -24,3 +24,12 @@ a service:
 brew install magici-labs/tap/displayctl
 brew services start displayctl
 ```
+
+## edgepin
+
+Menu bar app that pins a window to a screen edge and keeps other windows out of
+its space. See [Magici-Labs/edgepin](https://github.com/Magici-Labs/edgepin).
+
+```
+brew install --cask magici-labs/tap/edgepin
+```
