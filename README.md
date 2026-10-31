@@ -15,11 +15,7 @@ Prebuilt app and CLI:
 
 ```
 brew install --cask magici-labs/tap/displayctl
-xattr -dr com.apple.quarantine /Applications/DisplayCtl.app
 ```
-
-The build is ad-hoc signed rather than notarized, so the quarantine flag has to
-be cleared before Gatekeeper lets it run.
 
 Or build the CLI from source (needs current Xcode) and run the menu bar app as
 a service:
